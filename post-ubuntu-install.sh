@@ -7,26 +7,26 @@ sudo add-apt-repository -y ppa:numix/ppa
 
 sudo apt update && sudo apt -y dist-upgrade
 
-sudo apt -y install /
-	chromium-browser /
-	chrome-gnome-shell /
-	net-tools /
-	ubuntu-restricted-extras /
-	arc-theme /
-	numix-gtk-theme /
-	numix-icon-theme /
-	gimp /
-	nautilus-dropbox /
-	audacity /
-	easytag /
-	easytag-nautilus /
-	git /
-	nextcloud-client /
-	nextcloud-client-nautilus /
-	numix-icon-theme-bevel /
-	numix-icon-theme-circle /
-	numix-icon-theme-shine /
-	numix-icon-theme-square /
+sudo apt -y install \
+	chromium-browser \
+	chrome-gnome-shell \
+	net-tools \
+	ubuntu-restricted-extras \
+	arc-theme \
+	numix-gtk-theme \
+	numix-icon-theme \
+	gimp \
+	nautilus-dropbox \
+	audacity \
+	easytag \
+	easytag-nautilus \
+	git \
+	nextcloud-client \
+	nextcloud-client-nautilus \
+	numix-icon-theme-bevel \
+	numix-icon-theme-circle \
+	numix-icon-theme-shine \
+	numix-icon-theme-square \
 
 
 echo * gnome-tweak-tool
